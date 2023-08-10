@@ -1,8 +1,8 @@
 package com.niket.onlineofflineindicator.controllers;
 
+import com.niket.onlineofflineindicator.interfaces.IActivityService;
 import com.niket.onlineofflineindicator.records.GetLastUserActivitiesResponse;
 import com.niket.onlineofflineindicator.records.RegisterHeartbeatRequest;
-import com.niket.onlineofflineindicator.interfaces.IActivityService;
 import com.niket.onlineofflineindicator.services.ActivityService;
 import org.springframework.web.bind.annotation.*;
 

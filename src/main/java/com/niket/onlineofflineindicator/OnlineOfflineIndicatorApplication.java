@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class OnlineOfflineIndicatorApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(OnlineOfflineIndicatorApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OnlineOfflineIndicatorApplication.class, args);
+    }
 
 }

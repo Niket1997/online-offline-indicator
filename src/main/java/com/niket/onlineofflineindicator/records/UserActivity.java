@@ -1,4 +1,4 @@
 package com.niket.onlineofflineindicator.records;
 
-public record UserActivity(int customerId, int lastSeen, boolean isActive) {
+public record UserActivity(int customerId, long lastSeen, boolean isActive) {
 }
